@@ -1,0 +1,15 @@
+// 문자열로 타입 변환
+console.log(typeof String(1)); // -> string
+console.log(typeof (1).toString()); // -> string
+console.log(typeof (1 + '')); // -> string
+
+// 숫자로 타입 변환
+console.log(typeof Number('1')); // -> Number
+console.log(typeof parseFloat('1')); // -> Number
+console.log(typeof +'1'); // -> Number
+
+// 불리안으로 타입 변환
+console.log(typeof Boolean(1)) // -> boolean
+console.log(typeof !!1) // -> boolean
+
+
